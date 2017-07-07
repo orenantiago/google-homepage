@@ -1,2 +1,2 @@
 # Google Home Page #
-This is a [Google home page](www.google.com) that I made for [The Odin Project](www.theodinproject.com) :) 
+This is a [Google home page](https://www.google.com) that I made for [The Odin Project](https://www.theodinproject.com) :) 
