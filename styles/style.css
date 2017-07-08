@@ -1,0 +1,60 @@
+
+
+#navbar {
+  float: right;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+#logo {
+  background-image: url("../images/googlelogo.png");
+  height: 92px;
+  width: 272px;
+  margin: 0 auto;
+  position: relative;
+  top: 105px;
+}
+#logo-subtext {
+  color: #4285f4;
+  font: 16px/16px roboto-regular, arial, sans-serif;
+  left: 215px;
+  position: relative;
+  top: 76px;
+}
+#logo-box {
+  height: 233px;
+  margin-top: 89px;
+  padding: 0 auto;
+}
+.search-box {
+  background-color: #fff;
+  height: 44px;
+  vertical-align: top;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  width: 463px;
+  margin: 8px auto;
+}
+
+.search-box:focus {
+    outline: -webkit-focus-ring-color auto 5px;
+}
+
+.buttons {
+  background-color: #f2f2f2;
+  border: 1px solid #f2f2f2;
+  box-shadow: 0 1px 1px rgba(0,0,0,0.1);
+  color: #222;
+  height: 36px;
+  line-height: 27px;
+  font-family: arial,sans-serif;
+  font-size: 13px;
+  font-weight: bold;
+  color: #757575;
+  border-radius: 2px;
+  margin: 11px 4px;
+  padding: 0 16px;
+}
+.buttons:hover {
+  background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
+  border: 1px solid #c6c6c6;
+}
