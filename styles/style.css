@@ -33,10 +33,7 @@
   box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
   width: 463px;
   margin: 8px auto;
-}
-
-.search-box:focus {
-    outline: -webkit-focus-ring-color auto 5px;
+  padding: 5px 9px 0;
 }
 
 .buttons {
@@ -57,4 +54,18 @@
 .buttons:hover {
   background-image: -webkit-linear-gradient(top,#f8f8f8,#f1f1f1);
   border: 1px solid #c6c6c6;
+  color: black;
+}
+.buttons:active {
+}
+
+.search-text {
+  font: 16px arial,sans-serif;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  height: auto;
+  width: inherit;
+  outline: none;
+  line-height: 34px;
 }
