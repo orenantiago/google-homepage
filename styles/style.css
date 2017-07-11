@@ -1,9 +1,23 @@
+/** {
+  border-width: 1px;
+  border-style: dotted;
+}*/
 
+a {
+  color: rgb(102, 102, 102);
+  text-decoration: none;
+  font-size: 13px;
+  padding: 3px;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #000;
+}
 
 #navbar {
   float: right;
-  padding-left: 30px;
-  padding-right: 30px;
+  padding: 13px 30px 0 30px;
 }
 #logo {
   background-image: url("../images/googlelogo.png");
@@ -22,18 +36,41 @@
 }
 #logo-box {
   height: 233px;
-  margin-top: 89px;
   padding: 0 auto;
 }
 .search-box {
   background-color: #fff;
-  height: 44px;
+  height: 34px;
   vertical-align: top;
-  border-radius: 2px;
-  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
   width: 463px;
-  margin: 8px auto;
+  display: inline-block;
+  border
+}
+
+.search-text {
+  font: 16px arial,sans-serif;
+  border: none;
+  padding: 0px;
+  margin: 0px;
+  height: auto;
+  width: inherit;
+  outline: none;
+  line-height: 34px;
+}
+
+.search-space {
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  border-radius: 2px;
+  border-width: 1px;
+  width: 520px; height: 34px;
   padding: 5px 9px 0;
+  margin: 8px auto;
+  overflow: visible;
+  display: block;
+}
+
+.search-icons {
+  margin-left: 15px;
 }
 
 .buttons {
@@ -57,15 +94,4 @@
   color: black;
 }
 .buttons:active {
-}
-
-.search-text {
-  font: 16px arial,sans-serif;
-  border: none;
-  padding: 0px;
-  margin: 0px;
-  height: auto;
-  width: inherit;
-  outline: none;
-  line-height: 34px;
 }
